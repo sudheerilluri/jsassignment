@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 5px 10px;
+}
+.search {
+  text-align: left;
+  margin-left: 200px;
+}

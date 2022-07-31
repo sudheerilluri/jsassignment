@@ -1,0 +1,27 @@
+.logo {
+  height: 50px;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 5px 15px;
+}
+.header > div {
+  flex-grow: 1;
+  text-align: left;
+}
+.avatar {
+  border-radius: 100%;
+  border-width: 0px;
+  height: 45px;
+}
+.head-btn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #ffffff;
+  border-width: 0px;
+  height: 30px;
+  padding: 2px 5px;
+}
