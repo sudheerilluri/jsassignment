@@ -3,7 +3,7 @@ import "./index.css";
 const Nav = (props) => {
   const { activeId, chagetab } = props;
   const onChangeTab = (event) => {
-    console.log(event.target.id);
+    // console.log(event.target.id);
     chagetab(event.target.id);
   };
   return (

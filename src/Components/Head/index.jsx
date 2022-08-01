@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const Head = () => {
@@ -11,7 +12,9 @@ const Head = () => {
         />
       </div>
       <button type="button" className="head-btn">
-        + ADD
+        <Link to="/add-resource" className="link">
+          + ADD
+        </Link>
       </button>
       <img
         src="https://res.cloudinary.com/dnmtqwagj/image/upload/v1659263759/image_uivrjy.png"
